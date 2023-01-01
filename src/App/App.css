@@ -1,0 +1,21 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.5%; /* 1rem = 10px */
+}
+
+body{
+    font-size: 1.6rem;
+    background: #4649FF;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem;
+}
+
+#root{
+    display: flex;
+    gap: 4rem;
+}
